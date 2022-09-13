@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="TicketBooking" max_length="40" name="x_820117_theater_ticketbooking" type="collection">
+        <element attributes="encode_utf8=false" label="Choose movie" max_length="32" name="choosemovie" reference="x_820117_theater_film" type="reference"/>
+        <element attributes="encode_utf8=false" label="Choose city" max_length="32" name="choose_city" reference="x_820117_theater_add_cities" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Choose seat" max_length="40" name="choose_seat" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Seat 1" sequence="0" value="seat 1"/>
+                <element inactive_on_update="false" label="Seat 2" sequence="1" value="seat 2"/>
+                <element inactive_on_update="false" label="Seat 3" sequence="2" value="seat 3"/>
+                <element inactive_on_update="false" label="Seat 4" sequence="3" value="seat 4"/>
+                <element inactive_on_update="false" label="Seat 5" sequence="4" value="seat 5"/>
+                <element inactive_on_update="false" label="Seat 6" sequence="5" value="seat 6"/>
+                <element inactive_on_update="false" label="Seat 7" sequence="6" value="seat 7"/>
+                <element inactive_on_update="false" label="Seat 8" sequence="7" value="seat 8"/>
+                <element inactive_on_update="false" label="Seat 9" sequence="8" value="seat 9"/>
+                <element inactive_on_update="false" label="Seat 10" sequence="9" value="seat 10"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Choose Theater" max_length="32" name="choose_theater" reference="x_820117_theater_addtheaters" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User Mail" max_length="100" name="user_mail" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User Name" max_length="100" name="user_name" type="string"/>
+        <index name="index">
+            <element name="choosemovie"/>
+        </index>
+        <index name="index2">
+            <element name="choose_city"/>
+        </index>
+        <index name="index3">
+            <element name="choose_theater"/>
+        </index>
+    </element>
+</database>

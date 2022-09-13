@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-13 05:22:15</sys_created_on>
+        <sys_id>162b1ed747f1511085406285d36d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_820117_theater_film.x_820117_theater.film_user</sys_name>
+        <sys_package display_value="Theater" source="x_820117_theater">a3419a5f47b1511085406285d36d43f8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Theater">a3419a5f47b1511085406285d36d43f8</sys_scope>
+        <sys_security_acl display_value="x_820117_theater_film">1e2b1ed747f1511085406285d36d43cc</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_162b1ed747f1511085406285d36d43cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-13 05:22:15</sys_updated_on>
+        <sys_user_role display_value="x_820117_theater.film_user" name="x_820117_theater.film_user">c22bda9747f1511085406285d36d4332</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
