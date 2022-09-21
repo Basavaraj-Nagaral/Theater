@@ -4,114 +4,195 @@
         <client_script><![CDATA[api.controller=function($scope) {
   /* widget controller */
   var c = this;
+	var a1=false;
+	var a2=false;
+	$scope.submit3=function(){
+		a1 = true;
+	}
+	$scope.submit4=function(){
+		a2 = true;
+	}
 	$scope.submit=function(){
-		window.location.href = 'https://dev133040.service-now.com/tb?id=t_user_page'
+		if(a1==true){
+		window.location.href = 'https://dev133040.service-now.com/tb?id=t_user_page';
+	}
+	if(a2==true){
+		window.location.href = 'https://dev133040.service-now.com/tb?id=t_admin_page';
+	}
+}
+	$scope.submit2=function(){
+		window.location.href = 'https://dev133040.service-now.com/tb?id=form&table=x_820117_theater_theatre_signup';
 	}
 };]]></client_script>
         <controller_as>c</controller_as>
-        <css>@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
-#bg {
-  background-image: url('img/background.jpg');
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  filter: blur(5px);
+        <css>body {
+  background-color: #9f9da7;
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  color: #2b3e51;
 }
 
-body {
-  font-family: 'Lato', sans-serif;
-  color: #4A4A4A;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-}
-
-form {
-  width: 350px;
-  position: relative;
-}
-form .form-field::before {
-  font-size: 20px;
-  position: absolute;
-  left: 15px;
-  top: 17px;
-  color: #888888;
-  content: " ";
-  display: block;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-form .form-field:nth-child(1)::before {
-  background-image: url(img/user-icon.png);
-  width: 20px;
-  height: 20px;
-  top: 15px;
-}
-form .form-field:nth-child(2)::before {
-  background-image: url(img/lock-icon.png);
-  width: 16px;
-  height: 16px;
-}
-form .form-field {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 1rem;
-  position: relative;
-}
-form input {
-  font-family: inherit;
-  width: 100%;
-  outline: none;
-  background-color: #fff;
-  border-radius: 4px;
-  border: none;
-  display: block;
-  padding: 0.9rem 0.7rem;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-  font-size: 17px;
-  color: #4A4A4A;
-  text-indent: 40px;
-}
-form .btn {
-  outline: none;
-  border: none;
-  cursor: pointer;
-  display: inline-block;
-  margin: 0 auto;
-  padding: 0.9rem 2.5rem;
+h2 {
+  font-weight: 300;
   text-align: center;
-  background-color: #47AB11;
-  color: #fff;
+}
+
+p {
+  position: relative;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  color: #3ca9e2;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+a:focus, a:hover,
+a:link:focus,
+a:link:hover,
+a:visited:focus,
+a:visited:hover,
+a:active:focus,
+a:active:hover {
+  color: #329dd5;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#login-form-wrap {
+  background-color: #fff;
+  width: 35%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 0 0;
   border-radius: 4px;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-  font-size: 17px;
-}</css>
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+#login-form {
+  padding: 0 60px;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 0 0 0 10px;
+  margin: 0;
+  color: #8a8b8e;
+  border: 1px solid #c2c0ca;
+  font-style: normal;
+  font-size: 16px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  display: inline-block;
+  background: none;
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #3ca9e2;
+}
+input[type="text"]:focus:invalid,
+input[type="email"]:focus:invalid {
+  color: #cc1e2b;
+  border-color: #cc1e2b;
+}
+input[type="text"]:valid ~ .validation,
+input[type="email"]:valid ~ .validation {
+  display: block;
+  border-color: #0C0;
+}
+input[type="text"]:valid ~ .validation span,
+input[type="email"]:valid ~ .validation span {
+  background: #0C0;
+  position: absolute;
+  border-radius: 6px;
+}
+input[type="text"]:valid ~ .validation span:first-child,
+input[type="email"]:valid ~ .validation span:first-child {
+  top: 30px;
+  left: 14px;
+  width: 20px;
+  height: 3px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+input[type="text"]:valid ~ .validation span:last-child,
+input[type="email"]:valid ~ .validation span:last-child {
+  top: 35px;
+  left: 8px;
+  width: 11px;
+  height: 3px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.validation {
+  display: none;
+  position: absolute;
+  content: " ";
+  height: 60px;
+  width: 30px;
+  right: 15px;
+  top: 0px;
+}
+
+input[type="submit"] {
+  border: none;
+  display: block;
+  background-color: #3ca9e2;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  font-size: 18px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+input[type="submit"]:hover {
+  background-color: #329dd5;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#create-account-wrap {
+  background-color: #eeedf1;
+  color: #8a8b8e;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 0 0 4px 4px;
+}
+</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
         <docs/>
         <field_list/>
-        <has_preview>false</has_preview>
+        <has_preview>true</has_preview>
         <id>t_vmov_login</id>
         <internal>false</internal>
         <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
         <name>T_vmov login</name>
         <option_schema/>
-        <public>false</public>
+        <public>true</public>
         <roles/>
         <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
         <servicenow>false</servicenow>
@@ -119,31 +200,36 @@ form .btn {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-21 13:33:02</sys_created_on>
         <sys_id>59385d86474e511085406285d36d43a1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>T_vmov login</sys_name>
         <sys_package display_value="Theater" source="x_820117_theater">a3419a5f47b1511085406285d36d43f8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Theater">a3419a5f47b1511085406285d36d43f8</sys_scope>
         <sys_update_name>sp_widget_59385d86474e511085406285d36d43a1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-21 15:03:05</sys_updated_on>
+        <sys_updated_on>2022-09-21 18:13:26</sys_updated_on>
         <template><![CDATA[<div>
-<!-- partial:index.partial.html -->
-<div id="bg"></div>
-
-<form>
-  <div class="form-field">
-    <input type="email" placeholder="Email / Username" required/>
-  </div>
-  
-  <div class="form-field">
-    <input type="password" placeholder="Password" required/>                         </div>
-  
-  <div class="form-field">
-    <button ng-click=submit() class="btn" type="submit">Log in</button>
-  </div>
-</form>
-<!-- partial -->
+<div id="login-form-wrap">
+  <h2>Login</h2>
+  <form id="login-form">
+    <p>
+    <input type="email" id="username" name="username" placeholder="user name" required><i class="validation"><span></span><span></span></i>
+    </p>
+    <p>
+    <input type="text" id="email" name="email" placeholder="password" required><i class="validation"><span></span><span></span></i>
+    </p>
+    <input ng-click=submit3() type="radio" id="html" name="fav_language" value="HTML">
+<label for="html">User</label><br>
+<input ng-click=submit4() type="radio" id="css" name="fav_language" value="CSS">
+<label for="css">Admin</label><br>
+    <p>
+    <input ng-click=submit() type="submit" id="login" value="Login">
+    </p>
+  </form>
+  <div id="create-account-wrap">
+    <p>Not a member? <a ng-click=submit2() href="#">Create Account</a><p>
+  </div><!--create-account-wrap-->
+</div><!--login-form-wrap-->
 
 </div>]]></template>
     </sp_widget>

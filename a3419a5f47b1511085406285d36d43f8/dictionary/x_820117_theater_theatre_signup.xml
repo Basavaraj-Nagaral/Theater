@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Theatre signup" max_length="40" name="x_820117_theater_theatre_signup" type="collection">
+        <element label="Conferm Password" max_length="40" name="conferm_password" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Mobile Number" max_length="40" name="mobile_number" type="longint"/>
+        <element label="Password" max_length="40" name="password" type="string"/>
+        <element label="User Name" max_length="40" name="user_name" type="string"/>
+    </element>
+</database>

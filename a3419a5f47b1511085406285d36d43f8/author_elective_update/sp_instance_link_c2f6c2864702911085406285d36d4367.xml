@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>user</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">03e646864702911085406285d36d4300</sp_column>
+        <sp_page display_value="t_admin_page">02cf06e54702111085406285d36d43bb</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 16:57:21</sys_created_on>
+        <sys_id>c2f6c2864702911085406285d36d4367</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Admin</sys_name>
+        <sys_package display_value="Theater" source="x_820117_theater">a3419a5f47b1511085406285d36d43f8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Theater">a3419a5f47b1511085406285d36d43f8</sys_scope>
+        <sys_update_name>sp_instance_link_c2f6c2864702911085406285d36d4367</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 16:59:50</sys_updated_on>
+        <title>Admin</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=c2f6c2864702911085406285d36d4367"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Theater">a3419a5f47b1511085406285d36d43f8</application>
+        <file_path/>
+        <instance_id>8f648321db615118f492c59705961907</instance_id>
+        <instance_name>dev133040</instance_name>
+        <name>sp_instance_link_c2f6c2864702911085406285d36d4367</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;user&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;03e646864702911085406285d36d4300&lt;/sp_column&gt;&lt;sp_page display_value="t_admin_page"&gt;02cf06e54702111085406285d36d43bb&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-21 16:57:21&lt;/sys_created_on&gt;&lt;sys_id&gt;c2f6c2864702911085406285d36d4367&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Admin&lt;/sys_name&gt;&lt;sys_package display_value="Theater" source="x_820117_theater"&gt;a3419a5f47b1511085406285d36d43f8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Theater"&gt;a3419a5f47b1511085406285d36d43f8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_c2f6c2864702911085406285d36d4367&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-21 16:59:50&lt;/sys_updated_on&gt;&lt;title&gt;Admin&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c2f6c2864702911085406285d36d4367"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1778194280</payload_hash>
+        <record_name>Admin</record_name>
+        <reverted_from/>
+        <source>3e3de21b4735511085406285d36d4351</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 16:59:50</sys_created_on>
+        <sys_id>2e8742c64702911085406285d36d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18360fdcfb70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 16:59:50</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>268742c619029110afc56c6437c07b6f</update_guid>
+        <update_guid_history>268742c619029110afc56c6437c07b6f:1778194280,ac57ca86c802911010ea7f99286c0281:437813191,64370a86330291100be73b3e00bd79f0:-834228665,82f6c286cf0291103170041864ec0769:1090960861</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Admin">bc921a824742911085406285d36d438b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 17:48:03</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>b3348a3b3bdd4a3dbb616bf1d67006d1</sys_id>
+        <sys_metadata>c2f6c2864702911085406285d36d4367</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admin</sys_name>
+        <sys_package display_value="Theater" source="x_820117_theater">a3419a5f47b1511085406285d36d43f8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Theater">a3419a5f47b1511085406285d36d43f8</sys_scope>
+        <sys_scope_delete display_value="">9e499d028a2c43f6afbc7708d52a0964</sys_scope_delete>
+        <sys_update_name>sp_instance_link_c2f6c2864702911085406285d36d4367</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_c2f6c2864702911085406285d36d4367">2e8742c64702911085406285d36d436f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 17:48:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
