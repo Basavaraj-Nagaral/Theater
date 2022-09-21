@@ -6,10 +6,10 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Theater Name</column_label>
+        <column_label>Theatre Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -17,7 +17,7 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
@@ -49,14 +49,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-13 05:58:28</sys_created_on>
         <sys_id>747366134735511085406285d36d43df</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Theater Name</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Theatre Name</sys_name>
         <sys_package display_value="Theater" source="x_820117_theater">a3419a5f47b1511085406285d36d43f8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Theater">a3419a5f47b1511085406285d36d43f8</sys_scope>
         <sys_update_name>sys_dictionary_x_820117_theater_addtheaters_theater_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-13 05:58:28</sys_updated_on>
+        <sys_updated_on>2022-09-20 10:18:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

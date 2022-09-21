@@ -4,13 +4,13 @@
             <element>theater_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-13 05:58:28</sys_created_on>
-            <sys_id>7c7366134735511085406285d36d43fc</sys_id>
+            <sys_created_on>2022-09-16 05:46:09</sys_created_on>
+            <sys_id>a96d351c4702111085406285d36d4329</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_820117_theater_addtheaters" sys_domain="global" view="Default view">d72362134735511085406285d36d43f8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-13 05:58:28</sys_updated_on>
+            <sys_updated_on>2022-09-16 05:46:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

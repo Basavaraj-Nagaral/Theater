@@ -4,97 +4,153 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-13 05:11:49</sys_created_on>
-            <sys_id>61c8925747f1511085406285d36d431a</sys_id>
+            <sys_created_on>2022-09-21 10:35:10</sys_created_on>
+            <sys_id>bb7fe44e478a511085406285d36d43bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_820117_theater_ticketbooking" sys_domain="global" view="Default view">80425a9f47b1511085406285d36d4341</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-13 05:11:49</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>user_name</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-13 05:11:49</sys_created_on>
-            <sys_id>65c8925747f1511085406285d36d431a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_820117_theater_ticketbooking" sys_domain="global" view="Default view">80425a9f47b1511085406285d36d4341</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-13 05:11:49</sys_updated_on>
+            <sys_updated_on>2022-09-21 10:35:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>user_mail</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-13 05:11:49</sys_created_on>
-            <sys_id>69c8925747f1511085406285d36d431a</sys_id>
+            <sys_created_on>2022-09-21 10:35:10</sys_created_on>
+            <sys_id>bf7fe44e478a511085406285d36d43bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_820117_theater_ticketbooking" sys_domain="global" view="Default view">80425a9f47b1511085406285d36d4341</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-13 05:11:49</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>choosemovie</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-13 05:11:49</sys_created_on>
-            <sys_id>6dc8925747f1511085406285d36d431a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_820117_theater_ticketbooking" sys_domain="global" view="Default view">80425a9f47b1511085406285d36d4341</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-13 05:11:49</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>choose_city</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-13 05:11:49</sys_created_on>
-            <sys_id>61c8925747f1511085406285d36d431b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_820117_theater_ticketbooking" sys_domain="global" view="Default view">80425a9f47b1511085406285d36d4341</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-13 05:11:49</sys_updated_on>
+            <sys_updated_on>2022-09-21 10:35:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>choose_theater</element>
-            <position>5</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-13 05:11:49</sys_created_on>
-            <sys_id>65c8925747f1511085406285d36d431b</sys_id>
+            <sys_created_on>2022-09-21 10:35:10</sys_created_on>
+            <sys_id>b37fe44e478a511085406285d36d43c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_820117_theater_ticketbooking" sys_domain="global" view="Default view">80425a9f47b1511085406285d36d4341</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-13 05:11:49</sys_updated_on>
+            <sys_updated_on>2022-09-21 10:35:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>choose_seat</element>
-            <position>6</position>
+            <element>choose_city</element>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-13 05:11:49</sys_created_on>
-            <sys_id>69c8925747f1511085406285d36d431b</sys_id>
+            <sys_created_on>2022-09-21 10:35:10</sys_created_on>
+            <sys_id>b77fe44e478a511085406285d36d43c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_820117_theater_ticketbooking" sys_domain="global" view="Default view">80425a9f47b1511085406285d36d4341</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-13 05:11:49</sys_updated_on>
+            <sys_updated_on>2022-09-21 10:35:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>choosemovie</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-21 10:35:10</sys_created_on>
+            <sys_id>bb7fe44e478a511085406285d36d43c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_820117_theater_ticketbooking" sys_domain="global" view="Default view">80425a9f47b1511085406285d36d4341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-21 10:35:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-21 10:35:10</sys_created_on>
+            <sys_id>bf7fe44e478a511085406285d36d43c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_820117_theater_ticketbooking" sys_domain="global" view="Default view">80425a9f47b1511085406285d36d4341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-21 10:35:10</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_name</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-21 10:35:10</sys_created_on>
+            <sys_id>b37fe44e478a511085406285d36d43c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_820117_theater_ticketbooking" sys_domain="global" view="Default view">80425a9f47b1511085406285d36d4341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-21 10:35:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_seats</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-21 10:35:10</sys_created_on>
+            <sys_id>b77fe44e478a511085406285d36d43c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_820117_theater_ticketbooking" sys_domain="global" view="Default view">80425a9f47b1511085406285d36d4341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-21 10:35:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>price</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-21 10:35:10</sys_created_on>
+            <sys_id>bb7fe44e478a511085406285d36d43c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_820117_theater_ticketbooking" sys_domain="global" view="Default view">80425a9f47b1511085406285d36d4341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-21 10:35:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_seat</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-21 10:35:10</sys_created_on>
+            <sys_id>bf7fe44e478a511085406285d36d43c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_820117_theater_ticketbooking" sys_domain="global" view="Default view">80425a9f47b1511085406285d36d4341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-21 10:35:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>totalprice</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-21 10:35:10</sys_created_on>
+            <sys_id>b37fe44e478a511085406285d36d43c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_820117_theater_ticketbooking" sys_domain="global" view="Default view">80425a9f47b1511085406285d36d4341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-21 10:35:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

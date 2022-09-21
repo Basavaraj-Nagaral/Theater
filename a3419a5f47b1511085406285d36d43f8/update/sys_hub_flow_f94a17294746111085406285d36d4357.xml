@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>booking_confermation_with_ms_teams</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.type_of_seats","label":"Trigger - Record Created or Updated➛TicketBooking Record➛Type of seats","reference":"","reference_display":"Type of seats","type":"choice","base_type":"choice","parent_table_name":"x_820117_theater_ticketbooking","column_name":"type_of_seats","choices":[{"label":"-- None --","used":false,"selected":false,"reference":false,"missing":false,"rawLabel":"-- None --","image":"","value":""},{"label":"Balcony","used":false,"selected":false,"reference":false,"missing":false,"rawLabel":"Balcony","image":"","value":"balcony","parameters":{"name":"x_820117_theater_ticketbooking"}},{"label":"Recliner","used":false,"selected":false,"reference":false,"missing":false,"rawLabel":"Recliner","image":"","value":"recliner","parameters":{"name":"x_820117_theater_ticketbooking"}},{"label":"Front","used":false,"selected":false,"reference":false,"missing":false,"rawLabel":"Front","image":"","value":"front","parameters":{"name":"x_820117_theater_ticketbooking"}}]},{"name":"25b523e8-91ac-47ef-abe8-149ab49f7774.__action_status__","label":"1 - Post a Message➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"25b523e8-91ac-47ef-abe8-149ab49f7774.__dont_treat_as_error__","label":"1 - Post a Message➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.user_name","label":"Trigger - Record Created or Updated➛TicketBooking Record➛User Name","reference":"","reference_display":"User Name","type":"string","base_type":"string","parent_table_name":"x_820117_theater_ticketbooking","column_name":"user_name"},{"name":"Created or Updated_1.current.choosemovie.movie_name","label":"Trigger - Record Created or Updated➛TicketBooking Record➛Choose movie➛Movie Name","reference":"","reference_display":"Movie Name","type":"string","base_type":"string","parent_table_name":"x_820117_theater_film","column_name":"movie_name"},{"name":"Created or Updated_1.current.choose_theater.theater_name","label":"Trigger - Record Created or Updated➛TicketBooking Record➛Choose Theater➛Theatre Name","reference":"","reference_display":"Theatre Name","type":"string","base_type":"string","parent_table_name":"x_820117_theater_addtheaters","column_name":"theater_name"},{"name":"Created or Updated_1.current.choose_city.city_name","label":"Trigger - Record Created or Updated➛TicketBooking Record➛Choose city➛City Name","reference":"","reference_display":"City Name","type":"string","base_type":"string","parent_table_name":"x_820117_theater_add_cities","column_name":"city_name"},{"name":"Created or Updated_1.current.choose_seat","label":"Trigger - Record Created or Updated➛TicketBooking Record➛Choose seat","reference":"","reference_display":"Choose seat","type":"choice","base_type":"choice","parent_table_name":"x_820117_theater_ticketbooking","column_name":"choose_seat","choices":[{"label":"-- None --","used":false,"selected":false,"reference":false,"missing":false,"rawLabel":"-- None --","image":"","value":""},{"label":"Seat 1","used":false,"selected":false,"reference":false,"missing":false,"rawLabel":"Seat 1","image":"","value":"seat 1","parameters":{"name":"x_820117_theater_ticketbooking"}},{"label":"Seat 2","used":false,"selected":false,"reference":false,"missing":false,"rawLabel":"Seat 2","image":"","value":"seat 2","parameters":{"name":"x_820117_theater_ticketbooking"}},{"label":"Seat 3","used":false,"selected":false,"reference":false,"missing":false,"rawLabel":"Seat 3","image":"","value":"seat 3","parameters":{"name":"x_820117_theater_ticketbooking"}},{"label":"Seat 4","used":false,"selected":false,"reference":false,"missing":false,"rawLabel":"Seat 4","image":"","value":"seat 4","parameters":{"name":"x_820117_theater_ticketbooking"}},{"label":"Seat 5","used":false,"selected":false,"reference":false,"missing":false,"rawLabel":"Seat 5","image":"","value":"seat 5","parameters":{"name":"x_820117_theater_ticketbooking"}},{"label":"Seat 6","used":false,"selected":false,"reference":false,"missing":false,"rawLabel":"Seat 6","image":"","value":"seat 6","parameters":{"name":"x_820117_theater_ticketbooking"}},{"label":"Seat 7","used":false,"selected":false,"reference":false,"missing":false,"rawLabel":"Seat 7","image":"","value":"seat 7","parameters":{"name":"x_820117_theater_ticketbooking"}},{"label":"Seat 8","used":false,"selected":false,"reference":false,"missing":false,"rawLabel":"Seat 8","image":"","value":"seat 8","parameters":{"name":"x_820117_theater_ticketbooking"}},{"label":"Seat 9","used":false,"selected":false,"reference":false,"missing":false,"rawLabel":"Seat 9","image":"","value":"seat 9","parameters":{"name":"x_820117_theater_ticketbooking"}},{"label":"Seat 10","used":false,"selected":false,"reference":false,"missing":false,"rawLabel":"Seat 10","image":"","value":"seat 10","parameters":{"name":"x_820117_theater_ticketbooking"}}]},{"name":"Created or Updated_1.current.totalprice","label":"Trigger - Record Created or Updated➛TicketBooking Record➛Total price","reference":"","reference_display":"Total price","type":"integer","base_type":"integer","parent_table_name":"x_820117_theater_ticketbooking","column_name":"totalprice"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Booking confermation with ms teams</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:44:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f94a17294746111085406285d36d4357</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Booking confermation with ms teams</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Theater" source="x_820117_theater">a3419a5f47b1511085406285d36d43f8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Theater">a3419a5f47b1511085406285d36d43f8</sys_scope>
+        <sys_update_name>sys_hub_flow_f94a17294746111085406285d36d4357</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 11:38:19</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f94a17294746111085406285d36d4357"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f94a17294746111085406285d36d4357"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f94a17294746111085406285d36d4357^sys_idNOT IN5d5c1fa94746111085406285d36d4337"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Booking confermation with ms teams">f94a17294746111085406285d36d4357</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:53:21</sys_created_on>
+        <sys_id>5d5c1fa94746111085406285d36d4337</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 11:38:19</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5d5c1fa94746111085406285d36d4337"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5d5c1fa94746111085406285d36d4337</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:53:21</sys_created_on>
+        <sys_id>1d5c1fa94746111085406285d36d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 09:53:21</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5d5c1fa94746111085406285d36d4337</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:53:21</sys_created_on>
+        <sys_id>955c1fa94746111085406285d36d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 09:53:21</sys_updated_on>
+        <value>x_820117_theater_ticketbooking</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5d5c1fa94746111085406285d36d4337</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:53:21</sys_created_on>
+        <sys_id>d15c1fa94746111085406285d36d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 09:53:21</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=5d5c1fa94746111085406285d36d4337"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=f94a17294746111085406285d36d4357"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f94a17294746111085406285d36d4357^sys_idNOT INf14a17294746111085406285d36d4358"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f94a17294746111085406285d36d4357</id>
+        <name>Booking confermation with ms teams</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:44:22</sys_created_on>
+        <sys_id>f14a17294746111085406285d36d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 09:44:22</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f14a17294746111085406285d36d4358"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f94a17294746111085406285d36d4357^sys_idNOT IN115c1fa94746111085406285d36d4333,5d5c1fa94746111085406285d36d432b,d95c1fa94746111085406285d36d432f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Booking confermation with ms teams">f94a17294746111085406285d36d4357</model>
+        <model_id>f94a17294746111085406285d36d4357</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f94a17294746111085406285d36d4357</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:53:20</sys_created_on>
+        <sys_id>115c1fa94746111085406285d36d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Theater">a3419a5f47b1511085406285d36d43f8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 09:53:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Booking confermation with ms teams">f94a17294746111085406285d36d4357</model>
+        <model_id>f94a17294746111085406285d36d4357</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f94a17294746111085406285d36d4357</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:53:20</sys_created_on>
+        <sys_id>5d5c1fa94746111085406285d36d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Theater">a3419a5f47b1511085406285d36d43f8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 09:53:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD78fdf00e25ca51102b5ded30a48f06ab,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Booking confermation with ms teams">f94a17294746111085406285d36d4357</model>
+        <model_id>f94a17294746111085406285d36d4357</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f94a17294746111085406285d36d4357</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:53:20</sys_created_on>
+        <sys_id>d95c1fa94746111085406285d36d432f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Theater">a3419a5f47b1511085406285d36d43f8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 11:38:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=f94a17294746111085406285d36d4357"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f94a17294746111085406285d36d4357"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f94a17294746111085406285d36d4357^sys_idNOT INe95c1fa94746111085406285d36d4348"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Post a Message">549822431324030039a039ed9344b085</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Booking confermation with ms teams">f94a17294746111085406285d36d4357</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:53:21</sys_created_on>
+        <sys_id>e95c1fa94746111085406285d36d4348</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Theater">a3419a5f47b1511085406285d36d43f8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 11:38:19</sys_updated_on>
+        <ui_id>25b523e8-91ac-47ef-abe8-149ab49f7774</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e95c1fa94746111085406285d36d4348"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e95c1fa94746111085406285d36d4348</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:53:21</sys_created_on>
+        <sys_id>a15c1fa94746111085406285d36d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 09:53:21</sys_updated_on>
+        <value>https://capgemini.webhook.office.com/webhookb2/2d480827-ed7d-47a5-bbc6-bad9109e321e@76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61/IncomingWebhook/d2b4f0a3da044ccf9d46ced4df2ac63f/cf0a8e85-e7b6-4c44-bf6b-3d11cfeab8ca</value>
+        <variable display_value="Webhook URL">689822431324030039a039ed9344b088</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e95c1fa94746111085406285d36d4348</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:53:21</sys_created_on>
+        <sys_id>ed5c1fa94746111085406285d36d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 09:53:21</sys_updated_on>
+        <value>Booking confirmation﻿</value>
+        <variable display_value="Title">f49822431324030039a039ed9344b0bb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e95c1fa94746111085406285d36d4348"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_message</field>
+        <id>e95c1fa94746111085406285d36d4348</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:53:21</sys_created_on>
+        <sys_id>e15c1fa94746111085406285d36d434b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 11:38:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value>{{Created or Updated_1.current.user_name}} Your Ticket booking is Successful for the ﻿{{Created or Updated_1.current.choosemovie.movie_name}},In theatre﻿ {{Created or Updated_1.current.choose_theater.theater_name}} in the city﻿ {{Created or Updated_1.current.choose_city.city_name}} with seat {{Created or Updated_1.current.type_of_seats}} with the price 
+{{Created or Updated_1.current.totalprice}}
+﻿. Thanks for booking here.﻿</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_title</field>
+        <id>e95c1fa94746111085406285d36d4348</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:53:21</sys_created_on>
+        <sys_id>a95c1fa94746111085406285d36d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 09:53:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>e95c1fa94746111085406285d36d4348</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:53:21</sys_created_on>
+        <sys_id>6d5c1fa94746111085406285d36d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 09:53:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e95c1fa94746111085406285d36d4348^sys_idNOT INb4fdf00e47ca511085406285d36d43d7,b8fdf00e47ca511085406285d36d43d6"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_message</input_name>
+        <instance>e95c1fa94746111085406285d36d4348</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_message":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 11:38:19</sys_created_on>
+        <sys_id>b4fdf00e47ca511085406285d36d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 11:38:19</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_webhook_url</input_name>
+        <instance>e95c1fa94746111085406285d36d4348</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_webhook_url":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-21 11:38:19</sys_created_on>
+        <sys_id>b8fdf00e47ca511085406285d36d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-21 11:38:19</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e95c1fa94746111085406285d36d4348"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f94a17294746111085406285d36d4357"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f94a17294746111085406285d36d4357"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f94a17294746111085406285d36d4357"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f94a17294746111085406285d36d4357"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f94a17294746111085406285d36d4357^sys_idNOT IN115c1fa94746111085406285d36d432f,555c1fa94746111085406285d36d4332,555c1fa94746111085406285d36d4335"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f94a17294746111085406285d36d4357</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:53:20</sys_created_on>
+        <sys_id>115c1fa94746111085406285d36d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Theater" source="x_820117_theater">a3419a5f47b1511085406285d36d43f8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Theater">a3419a5f47b1511085406285d36d43f8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 09:53:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f94a17294746111085406285d36d4357</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:53:20</sys_created_on>
+        <sys_id>555c1fa94746111085406285d36d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Theater" source="x_820117_theater">a3419a5f47b1511085406285d36d43f8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Theater">a3419a5f47b1511085406285d36d43f8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 09:53:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f94a17294746111085406285d36d4357</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-20 09:53:21</sys_created_on>
+        <sys_id>555c1fa94746111085406285d36d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Theater" source="x_820117_theater">a3419a5f47b1511085406285d36d43f8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Theater">a3419a5f47b1511085406285d36d43f8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-20 09:53:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f94a17294746111085406285d36d4357"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f94a17294746111085406285d36d4357"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f94a17294746111085406285d36d4357"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f94a17294746111085406285d36d4357"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f94a17294746111085406285d36d4357"/>
+</record_update>

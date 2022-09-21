@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="film" max_length="40" name="x_820117_theater_film" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Movie Name" max_length="40" name="movie_name" type="string"/>
+    <element label="film" max_length="40" name="x_820117_theater_film" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Movie Name" max_length="40" name="movie_name" type="string"/>
     </element>
 </database>

@@ -8,32 +8,30 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>making mandatory of needed fields</name>
+        <name>Thank you</name>
         <order/>
-        <script><![CDATA[function onLoad() {
+        <script><![CDATA[function onSubmit() {
    //Type appropriate comment here, and begin script below
-   g_form.setMandatory('choosemovie','true');
-	g_form.setMandatory('choose_city','true');
-	g_form.setMandatory('choose_theater','true');
-	g_form.setMandatory('choose_seat','true');
+	g_navigation.openPopup("https://dev133040.service-now.com/tb/?id=t_thanks_for_booking");
+   
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-13 06:20:30</sys_created_on>
+        <sys_created_on>2022-09-21 13:38:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>b287aa174735511085406285d36d43a0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>making mandatory of needed fields</sys_name>
+        <sys_id>1be819c6474e511085406285d36d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Thank you</sys_name>
         <sys_overrides/>
         <sys_package display_value="Theater" source="x_820117_theater">a3419a5f47b1511085406285d36d43f8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Theater">a3419a5f47b1511085406285d36d43f8</sys_scope>
-        <sys_update_name>sys_script_client_b287aa174735511085406285d36d43a0</sys_update_name>
+        <sys_update_name>sys_script_client_1be819c6474e511085406285d36d4348</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-21 13:43:45</sys_updated_on>
+        <sys_updated_on>2022-09-21 13:38:48</sys_updated_on>
         <table>x_820117_theater_ticketbooking</table>
-        <type>onLoad</type>
+        <type>onSubmit</type>
         <ui_type>10</ui_type>
         <view/>
     </sys_script_client>

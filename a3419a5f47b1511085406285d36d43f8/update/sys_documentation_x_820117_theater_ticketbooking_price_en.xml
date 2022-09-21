@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Addtheatre" language="en" table="x_820117_theater_addtheaters">
+    <sys_documentation element="price" label="Price of each seat" language="en" table="x_820117_theater_ticketbooking">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>price</element>
             <help/>
             <hint/>
-            <label>Addtheatre</label>
+            <label>Price of each seat</label>
             <language>en</language>
-            <name>x_820117_theater_addtheaters</name>
-            <plural>Addtheatres</plural>
+            <name>x_820117_theater_ticketbooking</name>
+            <plural>Price of each seats</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-13 05:56:05</sys_created_on>
-            <sys_id>4ae26edf47f1511085406285d36d431a</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_name>Addtheatre</sys_name>
+            <sys_created_on>2022-09-21 10:09:07</sys_created_on>
+            <sys_id>528960c6478a511085406285d36d4333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Price of each seat</sys_name>
             <sys_package display_value="Theater" source="x_820117_theater">a3419a5f47b1511085406285d36d43f8</sys_package>
             <sys_policy/>
             <sys_scope display_value="Theater">a3419a5f47b1511085406285d36d43f8</sys_scope>
-            <sys_update_name>sys_documentation_x_820117_theater_addtheaters__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_820117_theater_ticketbooking_price_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-20 04:35:06</sys_updated_on>
+            <sys_updated_on>2022-09-21 10:09:07</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
